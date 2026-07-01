@@ -1,0 +1,36 @@
+.Signupcontainer {
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.Signupcontainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Signupcontainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Signupcontainer input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.Signupcontainer button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
