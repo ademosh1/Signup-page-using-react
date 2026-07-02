@@ -5,26 +5,27 @@ function Signup() {
     <div className="Signupcontainer">
       <h1>Sign Up</h1>
 
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your name"
-        />
+      <input
+        type="text"
+        placeholder="Enter your name"
+      />
 
-        <input
-          type="email"
-          placeholder="Enter your email"
-        />
+      <input
+        type="email"
+        placeholder="Enter your email"
+      />
 
-        <input
-          type="password"
-          placeholder="Create a password"
-        />
+      <input
+        type="password"
+        placeholder="Create your password"
+      />
 
-        <button type="submit">
-          Sign Up
-        </button>
-      </form>
+      <button>Sign Up</button>
+
+      <p>
+        Already have an account?
+        <a href="#"> Login</a>
+      </p>
     </div>
   );
 }
